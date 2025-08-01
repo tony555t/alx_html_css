@@ -1,16 +1,159 @@
-# 🎓 School Page - HTML & CSS Landing Page
+# ALX HTML/CSS Advanced Project
 
-This is a responsive landing page for a fictional education platform called **School Page**. The design was created in Figma and built using only HTML and CSS.
+## 📋 Project Overview
 
-## ✨ Features
+This project is a continuation of the **HTML, advanced** project, focusing on **CSS styling and visual design**. The goal is to create a fully styled webpage that matches the design specifications provided in Figma.
 
-- Eye-catching hero section with headline and call-to-action
-- Profiles for instructors or team members
-- Program highlights section
-- Testimonials or promotional content area
-- Footer with navigation and contact links
-- FAQ section for common questions
-- Responsive design for mobile and desktop
+## 🎯 Objectives
 
+- Apply advanced CSS styling techniques
+- Implement responsive design principles
+- Match the provided Figma design specifications
+- Create a pixel-perfect recreation of the design mockup
+- Practice modern CSS layout methods (Flexbox, Grid)
+- Optimize for cross-browser compatibility
 
+## 🎨 Design Resources
 
+### Figma Design
+- **Design File**: [Page in Figma](figma-link-here)
+- **Fig File**: Available for download
+- **Images**: Download project images from provided link
+- **Access**: "Duplicate to your Drafts" for full design details
+
+### Fonts Required
+- **Source Sans Pro**: [Download here](source-sans-pro-link)
+- **Spin Cycle OT**: [Download here](spin-cycle-ot-link)
+
+> **Note**: If your system doesn't have these fonts installed, download them from the provided links above.
+
+## 📁 Project Structure
+
+```
+css_advanced/
+├── README.md
+├── index.html
+├── styles.css
+├── images/
+│   ├── logo.png
+│   ├── favicon.ico
+│   └── [other-images]
+└── fonts/
+    ├── source-sans-pro/
+    └── spin-cycle-ot/
+```
+
+## 🛠️ Technologies Used
+
+- **HTML5**: Semantic markup and structure
+- **CSS3**: Advanced styling, animations, and layouts
+- **Flexbox**: For flexible layouts
+- **CSS Grid**: For complex grid layouts
+- **Media Queries**: For responsive design
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Web browser (Chrome, Firefox, Safari, Edge)
+- Text editor (VS Code, Sublime Text, Atom)
+- Git for version control
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/tony555t/alx_html_css.git
+   cd alx_html_css/css_advanced
+   ```
+
+2. **Download required fonts**
+   - Download Source Sans Pro and Spin Cycle OT fonts
+   - Install them on your system or place in the `fonts/` directory
+
+3. **Download project images**
+   - Download images from the provided link
+   - Place them in the `images/` directory
+
+4. **Open in browser**
+   ```bash
+   open index.html
+   # or simply double-click the index.html file
+   ```
+
+## 📱 Responsive Design
+
+The website is designed to be fully responsive across different device sizes:
+- **Desktop**: 1200px and above
+- **Tablet**: 768px - 1199px
+- **Mobile**: Below 768px
+
+## 🎯 Key Features
+
+- [ ] Pixel-perfect design implementation
+- [ ] Responsive layout for all devices
+- [ ] Cross-browser compatibility
+- [ ] Optimized images and assets
+- [ ] Clean, semantic HTML structure
+- [ ] Well-organized CSS with comments
+- [ ] Modern CSS techniques and best practices
+
+## 📝 Development Notes
+
+### Figma Design Considerations
+- Some values in Figma may be in float - round them as needed
+- Pay attention to spacing, typography, and color values
+- Ensure all interactive elements match the design specifications
+
+### CSS Best Practices
+- Use semantic class names
+- Organize CSS properties logically
+- Comment complex CSS rules
+- Use CSS custom properties (variables) for consistency
+- Minimize CSS redundancy
+
+## 🔧 Customization
+
+Feel free to make relevant changes to the HTML code as needed:
+- Add appropriate `alt` attributes for images
+- Include proper `meta` tags for SEO
+- Add favicon and other meta information
+- Ensure accessibility standards are met
+
+## 📊 Performance Optimization
+
+- Optimize image sizes and formats
+- Minimize CSS and HTML
+- Use efficient CSS selectors
+- Implement proper caching strategies
+
+## 🧪 Testing Checklist
+
+- [ ] Cross-browser testing (Chrome, Firefox, Safari, Edge)
+- [ ] Mobile responsiveness testing
+- [ ] Accessibility testing
+- [ ] Performance testing
+- [ ] HTML validation
+- [ ] CSS validation
+
+## 📚 Resources
+
+- [MDN Web Docs - CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [CSS-Tricks](https://css-tricks.com/)
+- [Flexbox Guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- [CSS Grid Guide](https://css-tricks.com/snippets/css/complete-guide-grid/)
+
+## 👨‍💻 Author
+
+**Antony** - [GitHub Profile](https://github.com/tony555t)
+
+## 📄 License
+
+This project is part of the ALX Software Engineering Program.
+
+## 🤝 Contributing
+
+This is a learning project. Feedback and suggestions are welcome!
+
+---
+
+*Last updated: August 2025*
