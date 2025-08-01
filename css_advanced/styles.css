@@ -1,45 +1,47 @@
-*{
-    margin:0;
-    padding:0;
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
-/* header */
-header{
+
+/* Header */
+header {
     position: absolute;
-    top: 0px;
+    top: 0;
     width: 100%;
     z-index: 100;
-    padding: 35px 0;
+    padding: 35px 171px;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px; */
 }
 
-nav img{
-    width:167px;
+nav img {
+    width: 167px;
     height: 32px;
 }
-nav ui{
+
+nav ul {
     display: flex;
     list-style: none;
     gap: 41px;
 }
 
-nav a{
+nav a {
     color: white;
     text-decoration: none;
     font-weight: 700;
     font-size: 12px;
 }
-/* first section  */
-main section :first-child{
+
+/* First Section */
+main section:first-child {
     background: radial-gradient(85.9% 85.9% at 50% 14.1%, rgba(41, 48, 61, 0.0001) 0%, #071629 100%), url('images/Object.png');
-    background-size: cover ;
+    background-size: cover;
     background-position: center;
     height: 1093px;
     display: flex;
@@ -47,56 +49,71 @@ main section :first-child{
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: white ;
+    color: white;
 }
-main section:first-child>div:first-child{
+
+main section:first-child > div:first-child {
     margin-bottom: 162px;
 }
-main section:first-child h1{
+
+main section:first-child h1 {
     font-size: 120px;
     font-weight: 700;
     line-height: 151px;
     margin-bottom: 5px;
 }
-main section:first-child button{
+
+main section:first-child span {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0 26px;
+}
+
+main section:first-child button {
     background: #C271FF;
     border: none;
     border-radius: 22px;
     color: white;
-    font-size:14px;
+    font-size: 14px;
     font-weight: 600;
     padding: 13px 31px;
-    margin-top:38px;
-    cursor:pointer
+    margin-top: 38px;
+    cursor: pointer;
 }
-main section :first-child > div :nth-child(2)h2{
+
+main section:first-child > div:nth-child(2) h2 {
     font-size: 32px;
     font-weight: 300;
     line-height: 40px;
     margin-bottom: 65px;
 }
-main section:first-child > div:nth-child(2)>div{
+
+main section:first-child > div:nth-child(2) > div {
     display: flex;
     gap: 58px;
 }
-main section:first-child >div:nth-child(2)>div>div{
+
+main section:first-child > div:nth-child(2) > div > div {
     text-align: center;
 }
-main section:first-child > div:nth-child(2) > div img{
-    width:150px;
+
+main section:first-child > div:nth-child(2) > div img {
+    width: 150px;
     height: 150px;
-    border-radius:50%;
-    margin-bottom:26px;
+    border-radius: 50%;
+    margin-bottom: 26px;
 }
-main section :first-child >div:nth-child(2)>div h3{
-    font-size:18px;
-    font-weight:900;
-    line-height:27px;
-    margin-bottom:3px
-} 
-main section :first-child > div:nth-child(2)>div p{
+
+main section:first-child > div:nth-child(2) > div h3 {
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 27px;
+    margin-bottom: 3px;
+}
+
+main section:first-child > div:nth-child(2) > div p {
     font-size: 16px;
-    font-style:italic;
+    font-style: italic;
     line-height: 24px;
     opacity: 0.8;
 }
