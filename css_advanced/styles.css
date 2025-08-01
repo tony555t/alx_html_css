@@ -60,10 +60,10 @@ main section:first-child h1 {
     font-size: 120px;
     font-weight: 700;
     line-height: 151px;
-    margin-bottom: 5px;
+    margin-bottom: 8px;
 }
 
-main section:first-child span {
+main section:first-child > div:first-child > span {
     font-size: 16px;
     font-weight: 700;
     margin: 0 26px;
@@ -77,8 +77,11 @@ main section:first-child button {
     font-size: 14px;
     font-weight: 600;
     padding: 13px 31px;
-    margin-top: 38px;
+    margin-top: 30px;
     cursor: pointer;
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
 }
 
 main section:first-child > div:nth-child(2) h2 {
@@ -91,6 +94,11 @@ main section:first-child > div:nth-child(2) h2 {
 main section:first-child > div:nth-child(2) > div {
     display: flex;
     gap: 58px;
+    justify-content: center;
+}
+
+main section:first-child > div:nth-child(2) > div > div:first-child {
+    margin-left: -50px;
 }
 
 main section:first-child > div:nth-child(2) > div > div {
