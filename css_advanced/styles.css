@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
 /* Header */
 header {
     position: absolute;
@@ -25,6 +29,16 @@ nav img {
     height: 32px;
 }
 
+.text-logo {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    width: 167px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+}
+
 nav ul {
     display: flex;
     list-style: none;
@@ -34,8 +48,10 @@ nav ul {
 nav a {
     color: white;
     text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 700;
     font-size: 12px;
+    letter-spacing: 1px;
 }
 
 /* First Section */
@@ -57,6 +73,7 @@ main section:first-child > div:first-child {
 }
 
 main section:first-child h1 {
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 120px;
     font-weight: 700;
     line-height: 151px;
@@ -64,9 +81,11 @@ main section:first-child h1 {
 }
 
 main section:first-child > div:first-child > span {
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 16px;
     font-weight: 700;
     margin: 0 26px;
+    letter-spacing: 1px;
 }
 
 main section:first-child button {
@@ -74,54 +93,79 @@ main section:first-child button {
     border: none;
     border-radius: 22px;
     color: white;
-    font-size: 14px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
     font-weight: 600;
     padding: 13px 31px;
-    margin-top: 30px;
+    margin-top: 45px;
     cursor: pointer;
     display: block;
-    margin-left:auto;
+    margin-left: auto;
     margin-right: auto;
+    letter-spacing: 0.5px;
 }
 
+/* Learn from the pros section */
 main section:first-child > div:nth-child(2) h2 {
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 32px;
     font-weight: 300;
     line-height: 40px;
     margin-bottom: 65px;
+    color: white;
 }
 
+main section:first-child > div:nth-child(2) h2 span {
+    color: #C271FF;
+    font-weight: 300;
+}
+
+/* Profile container - Remove backgrounds and fix spacing */
 main section:first-child > div:nth-child(2) > div {
     display: flex;
     gap: 58px;
     justify-content: center;
+    align-items: flex-start;
+    background: none !important;
 }
 
-main section:first-child > div:nth-child(2) > div > div:first-child {
-    margin-left: -50px;
-}
-
+/* Individual profile cards - Remove all backgrounds */
 main section:first-child > div:nth-child(2) > div > div {
     text-align: center;
+    flex: 0 0 auto;
+    width: 150px;
+    background: none !important;
+    padding: 0;
+    margin: 0;
 }
 
+/* Profile images */
 main section:first-child > div:nth-child(2) > div img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
     margin-bottom: 26px;
+    display: block;
 }
 
+/* Profile names */
 main section:first-child > div:nth-child(2) > div h3 {
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 18px;
     font-weight: 900;
     line-height: 27px;
     margin-bottom: 3px;
+    color: white;
 }
 
+
 main section:first-child > div:nth-child(2) > div p {
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 16px;
     font-style: italic;
+    font-weight: 400;
     line-height: 24px;
     opacity: 0.8;
+    color: white;
+    margin: 0;
 }
