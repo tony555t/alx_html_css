@@ -49,3 +49,54 @@ main section :first-child{
     text-align: center;
     color: white ;
 }
+main section:first-child>div:first-child{
+    margin-bottom: 162px;
+}
+main section:first-child h1{
+    font-size: 120px;
+    font-weight: 700;
+    line-height: 151px;
+    margin-bottom: 5px;
+}
+main section:first-child button{
+    background: #C271FF;
+    border: none;
+    border-radius: 22px;
+    color: white;
+    font-size:14px;
+    font-weight: 600;
+    padding: 13px 31px;
+    margin-top:38px;
+    cursor:pointer
+}
+main section :first-child > div :nth-child(2)h2{
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 40px;
+    margin-bottom: 65px;
+}
+main section:first-child > div:nth-child(2)>div{
+    display: flex;
+    gap: 58px;
+}
+main section:first-child >div:nth-child(2)>div>div{
+    text-align: center;
+}
+main section:first-child > div:nth-child(2) > div img{
+    width:150px;
+    height: 150px;
+    border-radius:50%;
+    margin-bottom:26px;
+}
+main section :first-child >div:nth-child(2)>div h3{
+    font-size:18px;
+    font-weight:900;
+    line-height:27px;
+    margin-bottom:3px
+} 
+main section :first-child > div:nth-child(2)>div p{
+    font-size: 16px;
+    font-style:italic;
+    line-height: 24px;
+    opacity: 0.8;
+}
