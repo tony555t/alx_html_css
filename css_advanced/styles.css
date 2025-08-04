@@ -254,26 +254,6 @@ main section:first-child > div:nth-child(2) > div p {
     border-radius: 4px;
 }
 
-.play-button {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 64px;
-    height: 64px;
-    background: rgba(194, 113, 255, 0.9);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-}
-
-.play-button i {
-    color: white;
-    font-size: 20px;
-    margin-left: 3px; /* Slight offset for optical alignment */
-}
 
 .tutorial-card h3 {
     font-family: 'Source Sans Pro', sans-serif;
