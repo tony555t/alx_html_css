@@ -233,3 +233,56 @@ main section:first-child > div:nth-child(2) > div p {
     max-width: 255px;
    text-align: left;
 }
+tutorial-video{
+    width:100%;
+    height:154px;
+    object-fit:cover;
+    margin-bottom: 13px;
+}
+.tutorial-card h3{
+    font-family: 'Source San pro',sans-serif;
+    font-size: 16px;
+     font-weight:700;
+     color: #071629;
+     margin-bottom: 8px;
+}
+.tutorial-card>p{
+    font-family: 'Source San pro',sans-serif;
+    font-size: 14px;
+    color:rgba(7,22,41,0.5);
+    line-height: 24px;
+    margin-bottom: 15px;
+}
+.tutorial-author{
+    display:flex;
+    align-items: center;
+    gap: 13px;
+    margin-bottom: 8px;
+}
+.tutorial-author img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.tutorial-author h4{
+    font-family: 'Source San pro',sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #C271FF;
+}
+.tutorial-rating{
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+}
+.stars{
+    display: flex;
+    color: #C271FF;
+    font-size: 12px;
+}
+.tutorial-rating p{
+    font-family: 'Source San pro',sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #C271FF;
+}
