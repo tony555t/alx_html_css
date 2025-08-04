@@ -209,8 +209,27 @@ main section:first-child > div:nth-child(2) > div p {
     line-height: 33.6px;
     opacity: 0.8;
 }
-.tutorial section{
+.tutorials-section{
     padding: 87px 0;
     text-align: center;
     background: white;
+}
+.tutorials-section h2{
+    font-family: 'Source San pro',sans-serif;
+    font-size: 32px;
+    font-weight: 300;
+    color:#071629;
+    margin-bottom: 65px;
+}
+.tutorials-grid{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    max-width: 1200px;
+    margin-top: 0 auto;
+
+}
+.tutorial-card{
+    max-width: 255px;
+   text-align: left;
 }
