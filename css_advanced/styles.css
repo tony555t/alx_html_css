@@ -210,7 +210,7 @@ main section:first-child > div:nth-child(2) > div p {
     opacity: 0.8;
 }
 /* Video Tutorial Section Styles */
-/* Video Tutorial Section Styles */
+
 .tutorials-section {
     padding: 60px 20px;
     text-align: center;
@@ -230,7 +230,7 @@ main section:first-child > div:nth-child(2) > div p {
 }
 
 .tutorials-grid {
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
     gap: 30px;
     max-width: 1200px;
@@ -350,7 +350,7 @@ main section:first-child > div:nth-child(2) > div p {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    font-size: 0; /* Hide the icon text */
+    font-size: 0;
 }
 
 .tutorial-rating p {
@@ -380,7 +380,7 @@ main section:first-child > div:nth-child(2) > div p {
     }
 
 .membership-grid {
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 50px;
     max-width: 1000px;
