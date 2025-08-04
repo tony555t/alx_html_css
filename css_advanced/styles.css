@@ -209,79 +209,126 @@ main section:first-child > div:nth-child(2) > div p {
     line-height: 33.6px;
     opacity: 0.8;
 }
-.tutorials-section{
+/* Updated Tutorials Section CSS */
+.tutorials-section {
     padding: 87px 0;
     text-align: center;
     background: white;
 }
-.tutorials-section h2{
-    font-family: 'Source San pro',sans-serif;
+
+.tutorials-section h2 {
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 32px;
     font-weight: 300;
-    color:#071629;
+    color: #071629;
     margin-bottom: 65px;
 }
-.tutorials-grid{
+
+.tutorials-section h2 span {
+    color: #C271FF;
+    font-weight: 700;
+}
+
+.tutorials-grid {
     display: flex;
     gap: 30px;
     justify-content: center;
     max-width: 1200px;
-    margin-top: 0 auto;
+    margin: 0 auto;
+}
 
-}
-.tutorial-card{
+.tutorial-card {
     max-width: 255px;
-   text-align: left;
+    text-align: left;
 }
-tutorial-video{
-    width:100%;
-    height:154px;
-    object-fit:cover;
+
+.tutorial-thumbnail {
+    position: relative;
     margin-bottom: 13px;
 }
-.tutorial-card h3{
-    font-family: 'Source San pro',sans-serif;
-    font-size: 16px;
-     font-weight:700;
-     color: #071629;
-     margin-bottom: 8px;
+
+.tutorial-video {
+    width: 100%;
+    height: 154px;
+    object-fit: cover;
+    border-radius: 4px;
 }
-.tutorial-card>p{
-    font-family: 'Source San pro',sans-serif;
+
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 64px;
+    height: 64px;
+    background: rgba(194, 113, 255, 0.9);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.play-button i {
+    color: white;
+    font-size: 20px;
+    margin-left: 3px; /* Slight offset for optical alignment */
+}
+
+.tutorial-card h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #071629;
+    margin-bottom: 8px;
+}
+
+.tutorial-card > p {
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 14px;
-    color:rgba(7,22,41,0.5);
+    color: rgba(7, 22, 41, 0.5);
     line-height: 24px;
     margin-bottom: 15px;
 }
-.tutorial-author{
-    display:flex;
+
+.tutorial-author {
+    display: flex;
     align-items: center;
     gap: 13px;
     margin-bottom: 8px;
 }
-.tutorial-author img{
+
+.tutorial-author img {
     width: 30px;
     height: 30px;
     border-radius: 50%;
 }
-.tutorial-author h4{
-    font-family: 'Source San pro',sans-serif;
+
+.tutorial-author h4 {
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 14px;
     font-weight: 600;
     color: #C271FF;
 }
-.tutorial-rating{
+
+.tutorial-rating {
     display: flex;
-    align-items:center;
-    justify-content:space-between;
+    align-items: center;
+    justify-content: space-between;
 }
-.stars{
+
+.stars {
     display: flex;
+    gap: 2px;
+}
+
+.stars i {
     color: #C271FF;
     font-size: 12px;
 }
-.tutorial-rating p{
-    font-family: 'Source San pro',sans-serif;
+
+.tutorial-rating p {
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 14px;
     font-weight: 600;
     color: #C271FF;
