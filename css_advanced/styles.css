@@ -438,3 +438,184 @@ main section:first-child > div:nth-child(2) > div p {
     transform: translateY(-2px);
     box-shadow: 0 8px 20px rgba(194, 113, 255, 0.3);
     }
+    
+   /* F.A.Q. Section Styles */
+.faq-section {
+    background: white;
+    padding: 67px 20px;
+    color: #071629;
+    }
+    
+    .faq-section h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 60px;
+    font-weight: 300;
+    line-height: 75px;
+    text-align: center;
+    margin-bottom: 65px;
+    color: #071629;
+    }
+    
+    .faq-container {
+    display: flex;
+    gap: 50px;
+    max-width: 920px;
+    margin: 0 auto;
+    align-items: flex-start;
+    }
+    
+    .faq-column {
+    flex: 1;
+    }
+    
+    .faq-item {
+    margin-bottom: 50px;
+    }
+    
+    .faq-item:last-child {
+    margin-bottom: 0;
+    }
+    
+    .faq-item h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-bottom: 15px;
+    color: #071629;
+    }
+    
+    .faq-item p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(7, 22, 41, 0.5);
+    margin: 0;
+    }
+    
+    /* Footer Section Styles */
+    .footer-section {
+    background: #071629;
+    padding: 50px 20px;
+    color: white;
+    }
+    
+    .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    }
+    
+    .footer-logo-social {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    }
+    
+    .footer-logo {
+    width: 167px;
+    height: 32px;
+    }
+    
+    .social-icons {
+    display: flex;
+    gap: 20px;
+    }
+    
+    .social-icons i {
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    }
+    
+    .social-icons i:hover {
+    color: #C271FF;
+    transform: translateY(-2px);
+    }
+    
+    .copyright {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: white;
+    opacity: 0.35;
+    margin: 0;
+    }
+    
+    /* Responsive Design */
+    @media (max-width: 768px) {
+    .faq-section {
+    padding: 50px 15px;
+    }
+    
+    .faq-section h2 {
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 50px;
+    }
+    
+    .faq-container {
+    flex-direction: column;
+    gap: 30px;
+    }
+    
+    .faq-item {
+    margin-bottom: 35px;
+    }
+    
+    .faq-item h3 {
+    font-size: 15px;
+    margin-bottom: 12px;
+    }
+    
+    .faq-item p {
+    font-size: 13px;
+    line-height: 22px;
+    }
+    
+    .footer-section {
+    padding: 40px 15px;
+    }
+    
+    .footer-content {
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+    }
+    
+    .footer-logo-social {
+    flex-direction: column;
+    gap: 30px;
+    }
+    
+    .social-icons i {
+    font-size: 25px;
+    }
+    }
+    
+    @media (max-width: 480px) {
+    .faq-section h2 {
+    font-size: 32px;
+    line-height: 40px;
+    }
+    
+    .faq-item {
+    margin-bottom: 30px;
+    }
+    
+    .footer-logo-social {
+    gap: 25px;
+    }
+    
+    .social-icons {
+    gap: 15px;
+    }
+    
+    .social-icons i {
+    font-size: 22px;
+    }
+    }
