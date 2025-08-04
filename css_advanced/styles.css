@@ -359,4 +359,82 @@ main section:first-child > div:nth-child(2) > div p {
     font-weight: 600;
     margin: 0;
 }
+.membership-section {
+    background-color: #071629;
+    padding: 70px 20px;
+    text-align: center;
+    text-align: center;
+    color: white ;
+}
+.membership-section h2{
+    font-family: 'Source San Pro',sans-serif;
+    font-size: 32px;
+    font: weight 300px; 
+    line-height: 40px;
+    margin-bottom: 65px;
+    color: white ;
+}
+.membership-section h2 span {
+    color: #C271FF;
+    font-weight: 300;
+    }
 
+.membership-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 50px;
+    max-width: 1000px;
+    margin: 0 auto 55px auto;
+    align-items: start;
+    }
+ .membership-card {
+        text-align: center;
+        background: transparent;
+        }
+.membership-icon {
+            width: 44px;
+            height: 35px;
+            margin-bottom: 26px;
+            filter: brightness(0) saturate(100%) invert(35%) sepia(93%) saturate(7495%) hue-rotate(271deg) brightness(96%) contrast(101%);
+            }
+
+ .membership-card h3 {
+                font-family: 'Source Sans Pro', sans-serif;
+                font-size: 18px;
+                font-weight: 600;
+                line-height: 26px;
+                margin-bottom: 26px;
+                color: white;
+                }
+                
+ .membership-card p {
+                font-family: 'Source Sans Pro', sans-serif;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 26px;
+                color: white;
+                opacity: 0.8;
+                margin: 0;
+                }
+                
+ .register-btn {
+                background: #C271FF;
+                border: none;
+                border-radius: 22px;
+                color: white;
+                font-family: 'Source Sans Pro', sans-serif;
+                font-size: 14px;
+                font-weight: 600;
+                text-transform: uppercase;
+                letter-spacing: 0.5px;
+                padding: 13px 31px;
+                cursor: pointer;
+                transition: all 0.3s ease;
+                margin-top: 20px;
+                }
+                
+.register-btn:hover {
+    background: #b85eee;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(194, 113, 255, 0.3);
+    }
