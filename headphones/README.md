@@ -32,3 +32,4 @@ It includes a clean, centered layout with interactive elements that respond to h
 
 ## 📂 Project Structure
 
+0-index.html, 0-styles.css
