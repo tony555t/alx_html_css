@@ -9,28 +9,73 @@
 </head>
 <body>
     <div class="hero-image">
-    <header>
-        <div class="navigation">
-        <nav>
-            <img src="https://i.postimg.cc/dtbrM2rw/logo-headphones.png" alt="logo">
-            <ul>
-                <li><a href="#">what we do</a></li>
-                <li><a href="#">our results</a></li>
-                <li><a href="#">contact us</a></li>
-            </ul>
-        </nav>
-        </div>
-    </header>
-    <main>
-        <section>
+        <header>
+            <div class="navigation">
+                <nav>
+                    <img src="https://i.postimg.cc/dtbrM2rw/logo-headphones.png" alt="logo">
+                    <button class="menu-toggle" onclick="toggleMenu()">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <ul id="navMenu">
+                        <li><a href="#">what we do</a></li>
+                        <li><a href="#">our results</a></li>
+                        <li><a href="#">contact us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <section>
                 <div class="hero-text">
                     <h1>Lorem ipsum dolor set amet lorem ipsum</h1>
-                    <h2>Lorem ipsum dolor set amet lorem ipsum</h2>
+                    <h2>Lorem ipsum dolor set amet lorem ipsum dolor set</h2>
                     <button>CALL TO ACTION</button>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                 </div>
-        </section>
-    </main>
+            </section>
+        </main>
+    </div>
+
+    <script>
+        function toggleMenu() {
+            const navMenu = document.getElementById('navMenu');
+            const menuToggle = document.querySelector('.menu-toggle i');
+            
+            navMenu.classList.toggle('show');
+            
+            if (navMenu.classList.contains('show')) {
+                menuToggle.classList.remove('fa-bars');
+                menuToggle.classList.add('fa-times');
+            } else {
+                menuToggle.classList.remove('fa-times');
+                menuToggle.classList.add('fa-bars');
+            }
+        }
+
+        // Close menu when clicking on a link
+        document.querySelectorAll('nav ul li a').forEach(link => {
+            link.addEventListener('click', () => {
+                const navMenu = document.getElementById('navMenu');
+                const menuToggle = document.querySelector('.menu-toggle i');
+                
+                navMenu.classList.remove('show');
+                menuToggle.classList.remove('fa-times');
+                menuToggle.classList.add('fa-bars');
+            });
+        });
+
+        // Close menu when clicking outside
+        document.addEventListener('click', (e) => {
+            const nav = document.querySelector('nav');
+            const navMenu = document.getElementById('navMenu');
+            const menuToggle = document.querySelector('.menu-toggle');
+            
+            if (!nav.contains(e.target) && navMenu.classList.contains('show')) {
+                navMenu.classList.remove('show');
+                menuToggle.querySelector('i').classList.remove('fa-times');
+                menuToggle.querySelector('i').classList.add('fa-bars');
+            }
+        });
+    </script>
 </body>
 </html>
-     
